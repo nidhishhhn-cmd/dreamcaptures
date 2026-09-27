@@ -8,8 +8,3 @@
 *.ico binary
 *.webp binary
 *.svg text
-# Git Large File Storage (Git LFS) tracking for large video assets
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-*.MP4 filter=lfs diff=lfs merge=lfs -text
-*.mov filter=lfs diff=lfs merge=lfs -text
-*.MOV filter=lfs diff=lfs merge=lfs -text
