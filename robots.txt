@@ -1,0 +1,16 @@
+# ==========================================
+# Robots.txt - Dream Capture Photography & Cinema
+# Domain: https://www.dreamcapturephotography.com/
+# Location: Sringeri, Chikkamagaluru & Agumbe, Karnataka
+# ==========================================
+
+User-agent: *
+Allow: /
+
+# Prevent search bots from indexing unnecessary source/version control directories
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /node_modules/
+
+# Sitemaps
+Sitemap: https://www.dreamcapturephotography.com/sitemap.xml

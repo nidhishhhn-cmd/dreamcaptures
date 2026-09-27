@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.dreamcapturephotography.com/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Hero & Lead Photographer -->
+    <image:image>
+      <image:loc>https://www.dreamcapturephotography.com/hero.jpg</image:loc>
+      <image:title>Dream Capture Photography Sringeri - Best Wedding &amp; Pre-Wedding Photography</image:title>
+      <image:caption>Capturing Timeless Wedding Memories in Sringeri, Chikkamagaluru &amp; Agumbe - Dream Capture Photography</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.dreamcapturephotography.com/iso.png</image:loc>
+      <image:title>Mr Ganesh - Lead Photographer at Dream Capture Photography Sringeri</image:title>
+      <image:caption>Expert Wedding, Pre-Wedding, and Candid Photographer based in Sringeri, Karnataka</image:caption>
+    </image:image>
+
+    <!-- Wedding & Palace Portfolio -->
+    <image:image>
+      <image:loc>https://www.dreamcapturephotography.com/wedding/01.jpg</image:loc>
+      <image:title>Royal Wedding Photography in Sringeri &amp; Chikkamagaluru</image:title>
+      <image:caption>Cinematic luxury wedding photography and candid couple moments by Dream Capture Photography</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.dreamcapturephotography.com/wedding/04.jpg</image:loc>
+      <image:title>Traditional South Indian Marriage Photography Sringeri</image:title>
+      <image:caption>Sacred marriage rituals, muhurtham, and candid photography in Sringeri temples and halls</image:caption>
+    </image:image>
+    
+    <!-- Pre-Wedding Destination Shoots (Agumbe & Chikkamagaluru) -->
+    <image:image>
+      <image:loc>https://www.dreamcapturephotography.com/prewedding/01.jpeg</image:loc>
+      <image:title>Agumbe &amp; Chikkamagaluru Destination Pre-Wedding Shoot</image:title>
+      <image:caption>Romantic scenic couple photoshoot in Western Ghats, Agumbe sunset and Chikkamagaluru coffee estates</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.dreamcapturephotography.com/prewedding/03.jpeg</image:loc>
+      <image:title>Sunset Destination Couple Portraits Agumbe</image:title>
+      <image:caption>Fine art candid pre-wedding shoot by Dream Capture Photography Sringeri</image:caption>
+    </image:image>
+
+    <!-- Traditional Cultural Ceremonies -->
+    <image:image>
+      <image:loc>https://www.dreamcapturephotography.com/traditional/01.jpeg</image:loc>
+      <image:title>Traditional Indian Ceremonies &amp; Cultural Photography Sringeri</image:title>
+      <image:caption>Authentic cultural ceremonies and family celebration photography in Sringeri</image:caption>
+    </image:image>
+
+    <!-- Baby, Milestone & Model Shoots -->
+    <image:image>
+      <image:loc>https://www.dreamcapturephotography.com/babyshoot/01.jpeg</image:loc>
+      <image:title>Baby &amp; Family Milestone Photography Sringeri Studio</image:title>
+      <image:caption>Creative newborn and birthday photography in Sringeri &amp; Chikkamagaluru</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.dreamcapturephotography.com/model/01.jpeg</image:loc>
+      <image:title>Fashion &amp; Model Portfolio Photoshoot Sringeri</image:title>
+      <image:caption>Professional editorial modeling and portrait photography by Mr Ganesh</image:caption>
+    </image:image>
+  </url>
+</urlset>
