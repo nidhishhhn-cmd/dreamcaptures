@@ -63,3 +63,6 @@ tmp/
 # We have configured .gitattributes for Git LFS.
 # If you prefer not to use Git LFS, uncomment the line below:
 # videos/*.mp4
+
+.vercel
+.env*

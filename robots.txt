@@ -10,6 +10,7 @@ Allow: /
 # Prevent search bots from indexing unnecessary source/version control directories
 Disallow: /.git/
 Disallow: /.github/
+Disallow: /.vercel/
 Disallow: /node_modules/
 
 # Sitemaps

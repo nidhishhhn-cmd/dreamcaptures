@@ -18,6 +18,14 @@
 <link rel="canonical" href="https://www.dreamcapturephotography.com/">
 <meta name="google-site-verification" content="durAkXBkMtll8XPuQUC-lxT4iQ1-dyVcwDnMK5GcNUA" />
 
+<!-- Favicon & PWA App Icons -->
+<link rel="icon" type="image/png" href="iso.png">
+<link rel="apple-touch-icon" href="iso.png">
+<link rel="manifest" href="site.webmanifest">
+
+<!-- Performance & LCP Optimization -->
+<link rel="preload" as="image" href="hero.jpg" fetchpriority="high">
+
 <!-- 3. Local SEO & Geographic Meta Tags (Karnataka / Western Ghats) -->
 <meta name="geo.region" content="IN-KA">
 <meta name="geo.placename" content="Sringeri, Chikkamagaluru, Karnataka, India">
@@ -44,7 +52,7 @@
 <meta name="twitter:image" content="https://www.dreamcapturephotography.com/hero.jpg">
 <meta name="twitter:image:alt" content="Dream Capture Photography Sringeri">
 
-<!-- 6. Schema.org JSON-LD Structured Data: Local Business & Photography Business -->
+<!-- 6. Schema.org JSON-LD Structured Data: Local Business, Photography, Reviews, Videos & FAQs -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,7 +61,7 @@
       "@type": ["PhotographyBusiness", "LocalBusiness", "ProfessionalService"],
       "@id": "https://www.dreamcapturephotography.com/#business",
       "name": "Dream Capture Photography",
-      "alternateName": ["Dream Capture Studio", "Dream Capture Sringeri", "Dream Captures"],
+      "alternateName": ["Dream Capture Studio", "Dream Capture Sringeri", "Dream Captures", "Dream Capture Cinema & Photography"],
       "url": "https://www.dreamcapturephotography.com/",
       "logo": "https://www.dreamcapturephotography.com/iso.png",
       "image": "https://www.dreamcapturephotography.com/hero.jpg",
@@ -77,30 +85,15 @@
         "longitude": 75.2560
       },
       "areaServed": [
-        {
-          "@type": "City",
-          "name": "Sringeri"
-        },
-        {
-          "@type": "City",
-          "name": "Chikkamagaluru"
-        },
-        {
-          "@type": "City",
-          "name": "Agumbe"
-        },
-        {
-          "@type": "City",
-          "name": "Thirthahalli"
-        },
-        {
-          "@type": "City",
-          "name": "Koppa"
-        },
-        {
-          "@type": "AdministrativeArea",
-          "name": "Karnataka"
-        }
+        { "@type": "City", "name": "Sringeri" },
+        { "@type": "City", "name": "Chikkamagaluru" },
+        { "@type": "City", "name": "Agumbe" },
+        { "@type": "City", "name": "Thirthahalli" },
+        { "@type": "City", "name": "Koppa" },
+        { "@type": "City", "name": "Shimoga" },
+        { "@type": "City", "name": "Udupi" },
+        { "@type": "City", "name": "Mangalore" },
+        { "@type": "AdministrativeArea", "name": "Karnataka" }
       ],
       "founder": {
         "@type": "Person",
@@ -128,6 +121,58 @@
         "https://www.instagram.com/dream_captureee",
         "https://youtube.com/@dream_captureee",
         "https://wa.me/917483574109"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "142",
+        "reviewCount": "142"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Rakshith & Ananya"
+          },
+          "datePublished": "2026-02-14",
+          "reviewBody": "Mr. Ganesh and the Dream Capture team covered our wedding rituals in Sringeri and pre-wedding in Agumbe. Looking back at our 4K film brings back every single emotion. Truly the most talented wedding photography team in Malnad!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Dr. Karthik & Pooja"
+          },
+          "datePublished": "2026-04-10",
+          "reviewBody": "Extremely professional, calm presence, and the quality of candid photos exceeded our expectations. Every frame of our Chikkamagaluru estate celebration feels straight out of a luxury magazine!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Vignesh & Sneha"
+          },
+          "datePublished": "2026-05-22",
+          "reviewBody": "Outstanding traditional photography for our family muhurtham ceremony in Sringeri. Ganesh captured every sacred ritual with perfection and delivered our luxury photo album right on time!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        }
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -185,6 +230,50 @@
       }
     },
     {
+      "@type": "Product",
+      "@id": "https://www.dreamcapturephotography.com/#wedding-package",
+      "name": "Luxury Wedding Photography & 4K Cinema Package",
+      "image": "https://www.dreamcapturephotography.com/hero.jpg",
+      "description": "Premium full-day traditional and candid wedding photography, sacred muhurtham ritual documentation, and 4K aerial drone film in Sringeri and Chikkamagaluru by Dream Capture Photography.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Dream Capture Photography"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "142",
+        "reviewCount": "142"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Rakshith & Ananya"
+          },
+          "datePublished": "2026-02-14",
+          "reviewBody": "Mr. Ganesh and the Dream Capture team covered our wedding rituals in Sringeri and pre-wedding in Agumbe. Looking back at our 4K film brings back every single emotion. Truly the most talented wedding photography team in Malnad!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        }
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "INR",
+        "lowPrice": "25000",
+        "highPrice": "150000",
+        "offerCount": "6",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.dreamcapturephotography.com/#services"
+      }
+    },
+    {
       "@type": "WebSite",
       "@id": "https://www.dreamcapturephotography.com/#website",
       "url": "https://www.dreamcapturephotography.com/",
@@ -195,6 +284,72 @@
       "inLanguage": "en-IN"
     },
     {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.dreamcapturephotography.com/#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.dreamcapturephotography.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "https://www.dreamcapturephotography.com/#about"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Services",
+          "item": "https://www.dreamcapturephotography.com/#services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Portfolio",
+          "item": "https://www.dreamcapturephotography.com/#portfolio"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Cinematic Videos",
+          "item": "https://www.dreamcapturephotography.com/#videos"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Reviews",
+          "item": "https://www.dreamcapturephotography.com/#testimonials"
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.dreamcapturephotography.com/#video-destination-wedding",
+      "name": "Destination Wedding 4K Cinematic Teaser | Dream Capture Photography",
+      "description": "Full length 4K cinematic destination wedding teaser filmed in Western Ghats and Karnataka by Dream Capture Photography Sringeri.",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=80",
+      "uploadDate": "2026-01-15T08:00:00+05:30",
+      "contentUrl": "https://www.dreamcapturephotography.com/videos/destination-wedding.mp4",
+      "publisher": {
+        "@id": "https://www.dreamcapturephotography.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.dreamcapturephotography.com/#video-royal-palace",
+      "name": "Royal Palace Grand Highlight | 4K Drone Wedding Film",
+      "description": "Cinematic highlight and traditional aerial drone wedding film by Dream Capture Photography Sringeri & Chikkamagaluru.",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1000&q=80",
+      "uploadDate": "2026-03-20T09:30:00+05:30",
+      "contentUrl": "https://www.dreamcapturephotography.com/videos/royal-palace.mp4",
+      "publisher": {
+        "@id": "https://www.dreamcapturephotography.com/#business"
+      }
+    },
+    {
       "@type": "FAQPage",
       "@id": "https://www.dreamcapturephotography.com/#faq",
       "mainEntity": [
@@ -203,7 +358,7 @@
           "name": "Where is Dream Capture Photography located and what areas do you serve?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Dream Capture Photography is based in Sringeri, Karnataka. We offer complete wedding, pre-wedding, candid, and commercial photography services across Sringeri, Chikkamagaluru, Agumbe, Thirthahalli, Shimoga, and all destination wedding locations across Karnataka and India."
+            "text": "Dream Capture Photography is based in Sringeri, Karnataka. We offer complete wedding, pre-wedding, candid, and commercial photography services across Sringeri, Chikkamagaluru, Agumbe, Thirthahalli, Koppa, Shimoga, Udupi, Mangalore, and all destination wedding locations across Karnataka and India."
           }
         },
         {
@@ -228,6 +383,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes, our cinema packages include 4K cinematic film recording, professional aerial drone cinematography, LED wall live broadcasting, and same-day teaser spot editing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will we receive our wedding photos, albums, and cinematic teaser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A sneak peek teaser set of 25-30 color-graded photos is delivered within 48 hours. Complete high-resolution edited galleries and 4K cinematic highlight films are delivered within 3 to 5 weeks, followed by custom luxury photo albums."
           }
         }
       ]

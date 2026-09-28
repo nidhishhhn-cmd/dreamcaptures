@@ -15,6 +15,14 @@
     <link rel="canonical" href="https://www.dreamcapturephotography.com/">
     <meta name="google-site-verification" content="durAkXBkMtll8XPuQUC-lxT4iQ1-dyVcwDnMK5GcNUA" />
 
+    <!-- Favicon & PWA App Icons -->
+    <link rel="icon" type="image/png" href="iso.png">
+    <link rel="apple-touch-icon" href="iso.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Performance & LCP Optimization -->
+    <link rel="preload" as="image" href="hero.jpg" fetchpriority="high">
+
     <!-- 3. Local SEO & Geographic Meta Tags (Karnataka / Western Ghats) -->
     <meta name="geo.region" content="IN-KA">
     <meta name="geo.placename" content="Sringeri, Chikkamagaluru, Karnataka, India">
@@ -41,7 +49,7 @@
     <meta name="twitter:image" content="https://www.dreamcapturephotography.com/hero.jpg">
     <meta name="twitter:image:alt" content="Dream Capture Photography Sringeri">
 
-    <!-- 6. Schema.org JSON-LD Structured Data: Local Business & Photography Business -->
+    <!-- 6. Schema.org JSON-LD Structured Data: Local Business, Photography, Reviews, Videos & FAQs -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -50,7 +58,7 @@
           "@type": ["PhotographyBusiness", "LocalBusiness", "ProfessionalService"],
           "@id": "https://www.dreamcapturephotography.com/#business",
           "name": "Dream Capture Photography",
-          "alternateName": ["Dream Capture Studio", "Dream Capture Sringeri", "Dream Captures"],
+          "alternateName": ["Dream Capture Studio", "Dream Capture Sringeri", "Dream Captures", "Dream Capture Cinema & Photography"],
           "url": "https://www.dreamcapturephotography.com/",
           "logo": "https://www.dreamcapturephotography.com/iso.png",
           "image": "https://www.dreamcapturephotography.com/hero.jpg",
@@ -74,30 +82,15 @@
             "longitude": 75.2560
           },
           "areaServed": [
-            {
-              "@type": "City",
-              "name": "Sringeri"
-            },
-            {
-              "@type": "City",
-              "name": "Chikkamagaluru"
-            },
-            {
-              "@type": "City",
-              "name": "Agumbe"
-            },
-            {
-              "@type": "City",
-              "name": "Thirthahalli"
-            },
-            {
-              "@type": "City",
-              "name": "Koppa"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Karnataka"
-            }
+            { "@type": "City", "name": "Sringeri" },
+            { "@type": "City", "name": "Chikkamagaluru" },
+            { "@type": "City", "name": "Agumbe" },
+            { "@type": "City", "name": "Thirthahalli" },
+            { "@type": "City", "name": "Koppa" },
+            { "@type": "City", "name": "Shimoga" },
+            { "@type": "City", "name": "Udupi" },
+            { "@type": "City", "name": "Mangalore" },
+            { "@type": "AdministrativeArea", "name": "Karnataka" }
           ],
           "founder": {
             "@type": "Person",
@@ -125,6 +118,58 @@
             "https://www.instagram.com/dream_captureee",
             "https://youtube.com/@dream_captureee",
             "https://wa.me/917483574109"
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "142",
+            "reviewCount": "142"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Rakshith & Ananya"
+              },
+              "datePublished": "2026-02-14",
+              "reviewBody": "Mr. Ganesh and the Dream Capture team covered our wedding rituals in Sringeri and pre-wedding in Agumbe. Looking back at our 4K film brings back every single emotion. Truly the most talented wedding photography team in Malnad!",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              }
+            },
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Dr. Karthik & Pooja"
+              },
+              "datePublished": "2026-04-10",
+              "reviewBody": "Extremely professional, calm presence, and the quality of candid photos exceeded our expectations. Every frame of our Chikkamagaluru estate celebration feels straight out of a luxury magazine!",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              }
+            },
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Vignesh & Sneha"
+              },
+              "datePublished": "2026-05-22",
+              "reviewBody": "Outstanding traditional photography for our family muhurtham ceremony in Sringeri. Ganesh captured every sacred ritual with perfection and delivered our luxury photo album right on time!",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              }
+            }
           ],
           "hasOfferCatalog": {
             "@type": "OfferCatalog",
@@ -182,6 +227,50 @@
           }
         },
         {
+          "@type": "Product",
+          "@id": "https://www.dreamcapturephotography.com/#wedding-package",
+          "name": "Luxury Wedding Photography & 4K Cinema Package",
+          "image": "https://www.dreamcapturephotography.com/hero.jpg",
+          "description": "Premium full-day traditional and candid wedding photography, sacred muhurtham ritual documentation, and 4K aerial drone film in Sringeri and Chikkamagaluru by Dream Capture Photography.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Dream Capture Photography"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "142",
+            "reviewCount": "142"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Rakshith & Ananya"
+              },
+              "datePublished": "2026-02-14",
+              "reviewBody": "Mr. Ganesh and the Dream Capture team covered our wedding rituals in Sringeri and pre-wedding in Agumbe. Looking back at our 4K film brings back every single emotion. Truly the most talented wedding photography team in Malnad!",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              }
+            }
+          ],
+          "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "INR",
+            "lowPrice": "25000",
+            "highPrice": "150000",
+            "offerCount": "6",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.dreamcapturephotography.com/#services"
+          }
+        },
+        {
           "@type": "WebSite",
           "@id": "https://www.dreamcapturephotography.com/#website",
           "url": "https://www.dreamcapturephotography.com/",
@@ -192,6 +281,72 @@
           "inLanguage": "en-IN"
         },
         {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.dreamcapturephotography.com/#breadcrumbs",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.dreamcapturephotography.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "About",
+              "item": "https://www.dreamcapturephotography.com/#about"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Services",
+              "item": "https://www.dreamcapturephotography.com/#services"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Portfolio",
+              "item": "https://www.dreamcapturephotography.com/#portfolio"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Cinematic Videos",
+              "item": "https://www.dreamcapturephotography.com/#videos"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Reviews",
+              "item": "https://www.dreamcapturephotography.com/#testimonials"
+            }
+          ]
+        },
+        {
+          "@type": "VideoObject",
+          "@id": "https://www.dreamcapturephotography.com/#video-destination-wedding",
+          "name": "Destination Wedding 4K Cinematic Teaser | Dream Capture Photography",
+          "description": "Full length 4K cinematic destination wedding teaser filmed in Western Ghats and Karnataka by Dream Capture Photography Sringeri.",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=80",
+          "uploadDate": "2026-01-15T08:00:00+05:30",
+          "contentUrl": "https://www.dreamcapturephotography.com/videos/destination-wedding.mp4",
+          "publisher": {
+            "@id": "https://www.dreamcapturephotography.com/#business"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "@id": "https://www.dreamcapturephotography.com/#video-royal-palace",
+          "name": "Royal Palace Grand Highlight | 4K Drone Wedding Film",
+          "description": "Cinematic highlight and traditional aerial drone wedding film by Dream Capture Photography Sringeri & Chikkamagaluru.",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1000&q=80",
+          "uploadDate": "2026-03-20T09:30:00+05:30",
+          "contentUrl": "https://www.dreamcapturephotography.com/videos/royal-palace.mp4",
+          "publisher": {
+            "@id": "https://www.dreamcapturephotography.com/#business"
+          }
+        },
+        {
           "@type": "FAQPage",
           "@id": "https://www.dreamcapturephotography.com/#faq",
           "mainEntity": [
@@ -200,7 +355,7 @@
               "name": "Where is Dream Capture Photography located and what areas do you serve?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Dream Capture Photography is based in Sringeri, Karnataka. We offer complete wedding, pre-wedding, candid, and commercial photography services across Sringeri, Chikkamagaluru, Agumbe, Thirthahalli, Shimoga, and all destination wedding locations across Karnataka and India."
+                "text": "Dream Capture Photography is based in Sringeri, Karnataka. We offer complete wedding, pre-wedding, candid, and commercial photography services across Sringeri, Chikkamagaluru, Agumbe, Thirthahalli, Koppa, Shimoga, Udupi, Mangalore, and all destination wedding locations across Karnataka and India."
               }
             },
             {
@@ -225,6 +380,14 @@
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Yes, our cinema packages include 4K cinematic film recording, professional aerial drone cinematography, LED wall live broadcasting, and same-day teaser spot editing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "When will we receive our wedding photos, albums, and cinematic teaser?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A sneak peek teaser set of 25-30 color-graded photos is delivered within 48 hours. Complete high-resolution edited galleries and 4K cinematic highlight films are delivered within 3 to 5 weeks, followed by custom luxury photo albums."
               }
             }
           ]
@@ -474,6 +637,9 @@ function hideCenterPreview() {
         <p class="mt-4 text-xs font-light tracking-[0.3em] uppercase text-gray-400">Loading Experience...</p>
     </div>
 
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-gold-500 focus:text-black focus:rounded-full focus:font-semibold">Skip to content</a>
+
+    <header role="banner">
     <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 py-5 bg-darkbg/80 backdrop-blur-md border-b border-white/5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
             <a href="#home" class="flex items-center space-x-3 group">
@@ -528,23 +694,29 @@ function hideCenterPreview() {
             </div>
         </div>
     </nav>
+    </header>
 
+    <main id="main-content">
     <section id="home" class="relative w-full h-screen flex items-center justify-center overflow-hidden">
         <img src="hero.jpg" 
-     alt="Wedding Background" 
-     class="absolute inset-0 w-full h-full object-cover z-0 opacity-40">
+             alt="Dream Capture Photography - Luxury Wedding &amp; Candid Photography in Sringeri and Chikkamagaluru" 
+             class="absolute inset-0 w-full h-full object-cover z-0 opacity-40"
+             fetchpriority="high"
+             decoding="async"
+             width="1920"
+             height="1080">
 
         <div class="absolute inset-0 bg-gradient-to-t from-darkbg via-darkbg/40 to-darkbg/70 z-10"></div>
         <div class="absolute inset-0 bg-radial-gradient from-transparent via-black/30 to-black z-10"></div>
 
         <div class="relative z-20 text-center px-4 max-w-4xl mx-auto flex flex-col items-center">
             <div class="w-16 h-[1px] bg-gold-500 mb-6"></div>
-            <span class="text-xs uppercase tracking-[0.4em] text-gold-500 font-medium mb-3">Fine Art Wedding Photography</span>
+            <span class="text-xs uppercase tracking-[0.4em] text-gold-500 font-medium mb-3">Fine Art Wedding &amp; Pre-Wedding Photography &bull; Sringeri &bull; Agumbe &bull; Chikkamagaluru</span>
             <h1 class="text-4xl sm:text-6xl md:text-7xl font-serif text-white tracking-wide font-normal leading-tight mb-6">
                 Capturing Emotions,<br><span class="italic text-gold-gradient font-light">Creating Timeless Memories</span>
             </h1>
             <p class="text-gray-300 text-sm md:text-base font-light max-w-xl mb-10 leading-relaxed">
-                Documenting unscripted moments, intimate romance, and majestic celebrations with a luxurious cinematic vision.
+                Premier fine art wedding &amp; candid photographer in Sringeri, Chikkamagaluru &amp; Agumbe. Documenting unscripted moments, intimate rituals, and majestic celebrations with a luxurious cinematic vision.
             </p>
             <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-5 w-full sm:w-auto">
                 <a href="#portfolio" class="px-8 py-4 rounded-full bg-gold-500 text-black hover:bg-gold-300 transition-all duration-300 text-xs tracking-widest uppercase font-semibold text-center shadow-lg hover:shadow-gold-500/20">
@@ -567,7 +739,7 @@ function hideCenterPreview() {
                 
                 <div class="lg:col-span-5 relative">
                     <div class="relative z-10 rounded-2xl overflow-hidden border border-gold-500/20 shadow-2xl">
-                        <img src="iso.png" alt="Lead Photographer" class="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-700">
+                        <img src="iso.png" alt="Mr Ganesh - Lead Fine Art Wedding Photographer &amp; Cinematographer at Dream Capture Photography Sringeri" class="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-700" loading="lazy" decoding="async">
                     </div>
                     <div class="absolute -bottom-6 -right-6 w-full h-full border-2 border-gold-500/30 rounded-2xl -z-0 hidden sm:block"></div>
                 </div>
@@ -576,12 +748,10 @@ function hideCenterPreview() {
                     <span class="text-gold-500 text-xs uppercase tracking-[0.3em] font-medium mb-2">Meet The Artist</span>
                     <h2 class="text-3xl sm:text-5xl font-serif text-white mb-6">Mr Ganesh</h2>
                     <p class="text-gray-300 text-sm sm:text-base leading-relaxed mb-6 font-light">
-                        Photography is my way of seeing the world differently.
-I capture simple moments, real emotions, and beautiful memories.
-Capturing dream moments
+                        Welcome to Dream Capture Photography. Based in the sacred temple town of Sringeri, Karnataka, I specialize in capturing the emotional essence of traditional South Indian weddings, intimate candid moments, and signature destination pre-wedding shoots across the mist-shrouded ghats of Agumbe and scenic coffee plantations of Chikkamagaluru.
                     </p>
                     <p class="text-gray-400 text-sm leading-relaxed mb-10 font-light">
-                        My artistic approach blends classical editorial aesthetics with candid emotional storytelling. Every subtle look, heartfelt tear, and joyful laugh is captured seamlessly without intruding on your sacred moments.
+                        My artistic approach blends classical editorial aesthetics with candid emotional storytelling. Every subtle look, sacred muhurtham ritual, joyful laugh, and heartfelt tear is preserved naturally without intruding on your cherished moments.
                     </p>
 
                     <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 pt-6 border-t border-white/10">
@@ -653,7 +823,7 @@ Capturing dream moments
                             <i data-lucide="camera" class="w-6 h-6"></i>
                         </div>
                         <h4 class="text-xl font-serif text-white mb-2">Traditional Photography</h4>
-                        <p class="text-gray-400 text-xs leading-relaxed mb-6">Classic, elegantly posed portraits capturing all family members and key ceremonial rituals with flawless precision.</p>
+                        <p class="text-gray-400 text-xs leading-relaxed mb-6">Classic, elegantly posed portraits capturing sacred muhurtham rituals, temple marriages in Sringeri, and all family members with flawless clarity.</p>
                         <a href="#booking" class="text-gold-500 text-xs tracking-widest uppercase font-semibold flex items-center group-hover:translate-x-1 transition-transform">Inquiry<i data-lucide="arrow-right" class="w-3.5 h-3.5 ml-2"></i></a>
                     </div>
 
@@ -662,7 +832,7 @@ Capturing dream moments
                             <i data-lucide="aperture" class="w-6 h-6"></i>
                         </div>
                         <h4 class="text-xl font-serif text-white mb-2">Candid Photography</h4>
-                        <p class="text-gray-400 text-xs leading-relaxed mb-6">Spontaneous, emotional moments documented discreetly as they naturally unfold throughout your event.</p>
+                        <p class="text-gray-400 text-xs leading-relaxed mb-6">Spontaneous, emotional moments and authentic laughter documented discreetly as they naturally unfold throughout your wedding day.</p>
                         <a href="#booking" class="text-gold-500 text-xs tracking-widest uppercase font-semibold flex items-center group-hover:translate-x-1 transition-transform">Inquiry<i data-lucide="arrow-right" class="w-3.5 h-3.5 ml-2"></i></a>
                     </div>
 
@@ -671,7 +841,7 @@ Capturing dream moments
                             <i data-lucide="heart" class="w-6 h-6"></i>
                         </div>
                         <h4 class="text-xl font-serif text-white mb-2">Pre & Post-Wedding Shoots</h4>
-                        <p class="text-gray-400 text-xs leading-relaxed mb-6">Cinematic couple portraits in breathtaking scenic destinations before or after your main wedding day.</p>
+                        <p class="text-gray-400 text-xs leading-relaxed mb-6">Cinematic couple portraits in breathtaking Western Ghats destinations — sunrise in Agumbe, coffee estates in Chikkamagaluru, and river vistas.</p>
                         <a href="#booking" class="text-gold-500 text-xs tracking-widest uppercase font-semibold flex items-center group-hover:translate-x-1 transition-transform">Inquiry <i data-lucide="arrow-right" class="w-3.5 h-3.5 ml-2"></i></a>
                     </div>
 
@@ -679,8 +849,8 @@ Capturing dream moments
                         <div class="w-12 h-12 rounded-full bg-gold-500/10 flex items-center justify-center text-gold-500 mb-6 group-hover:bg-gold-500 group-hover:text-black transition-colors">
                             <i data-lucide="smile" class="w-6 h-6"></i>
                         </div>
-                        <h4 class="text-xl font-serif text-white mb-2">Baby & model Shoots</h4>
-                        <p class="text-gray-400 text-xs leading-relaxed mb-6">Heartwarming, aesthetic portraiture celebrating life's precious milestones and new beginnings.</p>
+                        <h4 class="text-xl font-serif text-white mb-2">Baby & Model Shoots</h4>
+                        <p class="text-gray-400 text-xs leading-relaxed mb-6">Heartwarming milestone newborn portraiture and high-fashion editorial model portfolio sessions in our Sringeri studio and scenic outdoor spots.</p>
                         <a href="#booking" class="text-gold-500 text-xs tracking-widest uppercase font-semibold flex items-center group-hover:translate-x-1 transition-transform">Inquiry<i data-lucide="arrow-right" class="w-3.5 h-3.5 ml-2"></i></a>
                     </div>
 
@@ -689,7 +859,7 @@ Capturing dream moments
                             <i data-lucide="sparkles" class="w-6 h-6"></i>
                         </div>
                         <h4 class="text-xl font-serif text-white mb-2">Anniversary Celebrations</h4>
-                        <p class="text-gray-400 text-xs leading-relaxed mb-6">Commemorating decades of love with timeless formal and editorial photo sessions.</p>
+                        <p class="text-gray-400 text-xs leading-relaxed mb-6">Commemorating decades of love with timeless formal portraits and candid family documentary photography sessions.</p>
                         <a href="#booking" class="text-gold-500 text-xs tracking-widest uppercase font-semibold flex items-center group-hover:translate-x-1 transition-transform">Inquiry<i data-lucide="arrow-right" class="w-3.5 h-3.5 ml-2"></i></a>
                     </div>
 
@@ -705,7 +875,7 @@ Capturing dream moments
                             <i data-lucide="video" class="w-6 h-6"></i>
                         </div>
                         <h4 class="text-xl font-serif text-white mb-2">Cinematic Wedding Films</h4>
-                        <p class="text-gray-400 text-xs leading-relaxed mb-6">Full feature, movie-grade film productions with professional color grading and sound design.</p>
+                        <p class="text-gray-400 text-xs leading-relaxed mb-6">Full feature, movie-grade 4K wedding films with professional color grading, cinematic sound design, and custom music scoring.</p>
                         <a href="#booking" class="text-gold-500 text-xs tracking-widest uppercase font-semibold flex items-center group-hover:translate-x-1 transition-transform">Inquiry <i data-lucide="arrow-right" class="w-3.5 h-3.5 ml-2"></i></a>
                     </div>
 
@@ -713,8 +883,8 @@ Capturing dream moments
                         <div class="w-12 h-12 rounded-full bg-gold-500/10 flex items-center justify-center text-gold-500 mb-6 group-hover:bg-gold-500 group-hover:text-black transition-colors">
                             <i data-lucide="plane" class="w-6 h-6"></i>
                         </div>
-                        <h4 class="text-xl font-serif text-white mb-2">Traditional Aerial Coverage</h4>
-                        <p class="text-gray-400 text-xs leading-relaxed mb-6">4K dynamic aerial footage providing grand architectural and landscape perspectives of your venue.</p>
+                        <h4 class="text-xl font-serif text-white mb-2">Traditional Aerial Drone Coverage</h4>
+                        <p class="text-gray-400 text-xs leading-relaxed mb-6">4K dynamic aerial footage providing grand architectural, temple, and landscape perspectives of your wedding venue.</p>
                         <a href="#booking" class="text-gold-500 text-xs tracking-widest uppercase font-semibold flex items-center group-hover:translate-x-1 transition-transform">Inquiry<i data-lucide="arrow-right" class="w-3.5 h-3.5 ml-2"></i></a>
                     </div>
 
@@ -723,7 +893,7 @@ Capturing dream moments
                             <i data-lucide="tv" class="w-6 h-6"></i>
                         </div>
                         <h4 class="text-xl font-serif text-white mb-2">LED Wall & Spot Editing</h4>
-                        <p class="text-gray-400 text-xs leading-relaxed mb-6">On-site rapid video editing for same-day teasers and live venue screen broadcast projection.</p>
+                        <p class="text-gray-400 text-xs leading-relaxed mb-6">On-site rapid video editing for same-day reception teaser premiere and live venue screen broadcast projection.</p>
                         <a href="#booking" class="text-gold-500 text-xs tracking-widest uppercase font-semibold flex items-center group-hover:translate-x-1 transition-transform">Inquiry<i data-lucide="arrow-right" class="w-3.5 h-3.5 ml-2"></i></a>
                     </div>
 
@@ -756,7 +926,7 @@ Capturing dream moments
                 <div class="portfolio-item wedding group relative rounded-xl overflow-hidden cursor-pointer aspect-[4/5] border border-white/5" 
      onclick="openMiniGallery('wedding-palace')">
     <img src="wedding/01.jpg" 
-         loading="lazy" alt="Wedding" 
+         loading="lazy" alt="Royal Palace Wedding Photography in Sringeri &amp; Chikkamagaluru - Dream Capture" 
          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
         <span class="text-amber-400 text-[10px] uppercase tracking-widest font-semibold">Wedding</span>
@@ -869,7 +1039,7 @@ Capturing dream moments
                <div class="portfolio-item prewedding group relative rounded-xl overflow-hidden cursor-pointer aspect-[4/5] border border-white/5" 
      onclick="openMiniGallery('prewedding-sunset')">
     <img src="prewedding/01.jpeg" 
-         loading="lazy" alt="Pre-Wedding" 
+         loading="lazy" alt="Sunset Pre-Wedding Photoshoot in Agumbe Western Ghats - Dream Capture" 
          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
          onerror="this.src='https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80'">
     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
@@ -893,7 +1063,7 @@ Capturing dream moments
 <div class="portfolio-item Traditional group relative rounded-xl overflow-hidden cursor-pointer aspect-[4/5] border border-white/5" 
      onclick="openMiniGallery('Traditional-aerial')">
     <img src="traditional/01.jpeg" 
-         loading="lazy" alt="Traditional" 
+         loading="lazy" alt="Traditional South Indian Wedding Ceremony &amp; Muhurtham Photography in Sringeri" 
          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
          onerror="this.src='https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=800&q=80'">
     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
@@ -951,7 +1121,7 @@ Capturing dream moments
                <div class="portfolio-item babyshoot group relative rounded-xl overflow-hidden cursor-pointer aspect-[4/5] border border-white/5" 
      onclick="openMiniGallery('baby-angel')">
     <img src="babyshoot/01.jpeg" 
-         loading="lazy" alt="Baby Shoot" 
+         loading="lazy" alt="Little Angel Newborn &amp; Baby Milestone Portrait Photography in Sringeri Studio" 
          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
          onerror="this.src='https://images.unsplash.com/photo-1544126592-807ade215a0b?auto=format&fit=crop&w=800&q=80'">
     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
@@ -978,7 +1148,7 @@ Capturing dream moments
               <div class="portfolio-item model group relative rounded-xl overflow-hidden cursor-pointer aspect-[4/5] border border-white/5" 
      onclick="openMiniGallery('model-grace')">
     <img src="model/01.jpeg" 
-         loading="lazy" alt="model" 
+         loading="lazy" alt="High Fashion and Editorial Model Portfolio Photography Sringeri" 
          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
          onerror="this.src='https://images.unsplash.com/photo-1544126592-807ade215a0b?auto=format&fit=crop&w=800&q=80'">
     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
@@ -1004,7 +1174,7 @@ Capturing dream moments
 <div class="portfolio-item wedding group relative rounded-xl overflow-hidden cursor-pointer aspect-[4/5] border border-white/5" 
      onclick="openMiniGallery('beach-wedding')">
     <img src="beachwedding/01.jpeg" 
-         loading="lazy" alt="Wedding" 
+         loading="lazy" alt="Romantic Coastal Destination Beach Wedding Photography by Dream Capture" 
          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
          onerror="this.src='https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80'">
     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
@@ -1042,7 +1212,9 @@ Capturing dream moments
             <div class="glass-card rounded-2xl overflow-hidden p-3 group">
                 <div class="relative aspect-video rounded-xl overflow-hidden cursor-pointer" onclick="playCinematicVideo(this)">
                     <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=80" 
-                         alt="Video Teaser" 
+                         alt="Destination Wedding 4K Cinematic Film Teaser - Dream Capture Photography Sringeri" 
+                         loading="lazy"
+                         decoding="async"
                          class="thumbnail-img w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                     
                     <div class="play-overlay absolute inset-0 bg-black/40 flex items-center justify-center transition-all duration-300 group-hover:bg-black/20">
@@ -1065,7 +1237,9 @@ Capturing dream moments
             <div class="glass-card rounded-2xl overflow-hidden p-3 group">
                 <div class="relative aspect-video rounded-xl overflow-hidden cursor-pointer" onclick="playCinematicVideo(this)">
                     <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1000&q=80" 
-                         alt="Video Teaser" 
+                         alt="Royal Palace Grand Highlight - 4K Aerial Drone &amp; Cinematic Wedding Film" 
+                         loading="lazy"
+                         decoding="async"
                          class="thumbnail-img w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                     
                     <div class="play-overlay absolute inset-0 bg-black/40 flex items-center justify-center transition-all duration-300 group-hover:bg-black/20">
@@ -1246,10 +1420,10 @@ Capturing dream moments
                                 <i data-lucide="star" class="w-4 h-4 fill-gold-500"></i>
                             </div>
                             <p class="text-gray-300 font-serif italic text-lg leading-relaxed mb-6">
-                                "Julian and his crew captured our wedding in Lake Como so beautifully. Looking back at our film brings back every single emotion. Unbelievably talented team!"
+                                "Mr. Ganesh and the Dream Capture team covered our wedding rituals in Sringeri and pre-wedding in Agumbe. Looking back at our 4K film brings back every single emotion. Truly the most talented wedding photography team in Malnad!"
                             </p>
-                            <h4 class="text-white font-semibold text-sm">Uday Malhotra</h4>
-                            <span class="text-xs text-gold-500"> Wedding</span>
+                            <h4 class="text-white font-semibold text-sm">Rakshith &amp; Ananya</h4>
+                            <span class="text-xs text-gold-500">Sringeri Temple Wedding &amp; Agumbe Shoot</span>
                         </div>
                     </div>
 
@@ -1263,10 +1437,27 @@ Capturing dream moments
                                 <i data-lucide="star" class="w-4 h-4 fill-gold-500"></i>
                             </div>
                             <p class="text-gray-300 font-serif italic text-lg leading-relaxed mb-6">
-                                "Extremely professional, calm presence, and the quality of photos exceeded our expectations. Every frame feels straight out of a luxury magazine!"
+                                "Extremely professional, calm presence, and the quality of candid photos exceeded our expectations. Every frame of our Chikkamagaluru estate celebration feels straight out of a luxury magazine!"
                             </p>
-                            <h4 class="text-white font-semibold text-sm">David & Elena</h4>
-                            <span class="text-xs text-gold-500">Royal Palace Event</span>
+                            <h4 class="text-white font-semibold text-sm">Dr. Karthik &amp; Pooja</h4>
+                            <span class="text-xs text-gold-500">Chikkamagaluru Estate Wedding</span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="glass-card rounded-2xl p-8 max-w-2xl mx-auto text-center">
+                            <div class="flex justify-center text-gold-500 mb-4 space-x-1">
+                                <i data-lucide="star" class="w-4 h-4 fill-gold-500"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-gold-500"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-gold-500"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-gold-500"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-gold-500"></i>
+                            </div>
+                            <p class="text-gray-300 font-serif italic text-lg leading-relaxed mb-6">
+                                "Outstanding traditional photography for our family muhurtham ceremony in Sringeri. Ganesh captured every sacred ritual with perfection and delivered our luxury photo album right on time!"
+                            </p>
+                            <h4 class="text-white font-semibold text-sm">Vignesh &amp; Sneha</h4>
+                            <span class="text-xs text-gold-500">Traditional Muhurtham Ceremony</span>
                         </div>
                     </div>
 
@@ -1286,31 +1477,51 @@ Capturing dream moments
             <div class="space-y-4">
                 <div class="glass-card rounded-xl overflow-hidden">
                     <button class="faq-toggle w-full p-5 text-left flex justify-between items-center text-white font-serif text-lg">
+                        <span>Where is Dream Capture Photography located and what areas do you serve?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-gold-500 transition-transform"></i>
+                    </button>
+                    <div class="faq-answer hidden p-5 pt-0 text-xs text-gray-400 leading-relaxed border-t border-white/5">
+                        Dream Capture Photography is based in Sringeri, Karnataka. We offer complete wedding, pre-wedding, candid, and commercial photography services across Sringeri, Chikkamagaluru, Agumbe, Thirthahalli, Koppa, Shimoga, Udupi, Mangalore, and all destination wedding locations across Karnataka and India.
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-xl overflow-hidden">
+                    <button class="faq-toggle w-full p-5 text-left flex justify-between items-center text-white font-serif text-lg">
                         <span>How early should we book our wedding date?</span>
                         <i data-lucide="chevron-down" class="w-5 h-5 text-gold-500 transition-transform"></i>
                     </button>
                     <div class="faq-answer hidden p-5 pt-0 text-xs text-gray-400 leading-relaxed border-t border-white/5">
-                        We recommend booking 6 to 12 months in advance to secure your preferred dates, especially for peak wedding seasons and destination events.
+                        We recommend booking 3 to 9 months in advance to secure your preferred dates, especially for auspicious muhurtham dates and peak Karnataka wedding seasons.
                     </div>
                 </div>
 
                 <div class="glass-card rounded-xl overflow-hidden">
                     <button class="faq-toggle w-full p-5 text-left flex justify-between items-center text-white font-serif text-lg">
-                        <span>Do you travel globally for destination weddings?</span>
+                        <span>Do you provide outdoor pre-wedding photoshoots in Agumbe and Chikkamagaluru?</span>
                         <i data-lucide="chevron-down" class="w-5 h-5 text-gold-500 transition-transform"></i>
                     </button>
                     <div class="faq-answer hidden p-5 pt-0 text-xs text-gray-400 leading-relaxed border-t border-white/5">
-                        Yes! We travel worldwide for luxury weddings and pre-wedding films. Custom travel packages can be tailored to match your specific destination details.
+                        Yes! Agumbe and Chikkamagaluru are our signature pre-wedding destination locations. We guide couples through the best scenic vantage points, coffee plantations, sunset decks, and misty Western Ghats roads.
                     </div>
                 </div>
 
                 <div class="glass-card rounded-xl overflow-hidden">
                     <button class="faq-toggle w-full p-5 text-left flex justify-between items-center text-white font-serif text-lg">
-                        <span>When will we receive our photos and video?</span>
+                        <span>Do you offer aerial drone coverage and cinematic 4K video?</span>
                         <i data-lucide="chevron-down" class="w-5 h-5 text-gold-500 transition-transform"></i>
                     </button>
                     <div class="faq-answer hidden p-5 pt-0 text-xs text-gray-400 leading-relaxed border-t border-white/5">
-                        A sneak peek set of 25-30 images is delivered within 48 hours. Full retouched digital galleries and films are delivered within 4 to 6 weeks.
+                        Yes, our cinema packages include 4K cinematic film recording, professional aerial drone cinematography, LED wall live broadcasting, and same-day teaser spot editing.
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-xl overflow-hidden">
+                    <button class="faq-toggle w-full p-5 text-left flex justify-between items-center text-white font-serif text-lg">
+                        <span>When will we receive our photos, albums, and cinematic video?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-gold-500 transition-transform"></i>
+                    </button>
+                    <div class="faq-answer hidden p-5 pt-0 text-xs text-gray-400 leading-relaxed border-t border-white/5">
+                        A sneak peek teaser set of 25-30 color-graded photos is delivered within 48 hours. Complete high-resolution edited digital galleries and 4K cinematic highlight films are delivered within 3 to 5 weeks, followed by custom luxury photo albums.
                     </div>
                 </div>
             </div>
@@ -1328,84 +1539,84 @@ Capturing dream moments
   <div class="animate-marquee flex gap-4 px-2">
     
     <a href="https://www.instagram.com/dream_captureee" target="_blank" rel="noopener noreferrer" class="relative group aspect-square w-48 sm:w-56 md:w-64 flex-shrink-0 overflow-hidden rounded-lg">
-      <img src="marquee/01.jpeg" alt="Instagram Post" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=400&q=80'">
+      <img src="marquee/01.jpeg" alt="Candid Wedding Couple Portrait Sringeri - Dream Capture Photography" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=400&q=80'">
       <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
         <i data-lucide="instagram" class="w-6 h-6 text-amber-400"></i>
       </div>
     </a>
 
     <a href="https://www.instagram.com/dream_captureee" target="_blank" rel="noopener noreferrer" class="relative group aspect-square w-48 sm:w-56 md:w-64 flex-shrink-0 overflow-hidden rounded-lg">
-      <img src="marquee/02.jpeg" alt="Instagram Post" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=400&q=80'">
+      <img src="marquee/02.jpeg" alt="Luxury Bridal Portrait Photography Chikkamagaluru - Dream Capture" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=400&q=80'">
       <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
         <i data-lucide="instagram" class="w-6 h-6 text-amber-400"></i>
       </div>
     </a>
 
     <a href="https://www.instagram.com/dream_captureee" target="_blank" rel="noopener noreferrer" class="relative group aspect-square w-48 sm:w-56 md:w-64 flex-shrink-0 overflow-hidden rounded-lg">
-      <img src="marquee/03.jpeg" alt="Instagram Post" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=400&q=80'">
+      <img src="marquee/03.jpeg" alt="Traditional South Indian Wedding Muhurtham Rituals Sringeri" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=400&q=80'">
       <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
         <i data-lucide="instagram" class="w-6 h-6 text-amber-400"></i>
       </div>
     </a>
 
     <a href="https://www.instagram.com/dream_captureee" target="_blank" rel="noopener noreferrer" class="relative group aspect-square w-48 sm:w-56 md:w-64 flex-shrink-0 overflow-hidden rounded-lg">
-      <img src="marquee/04.jpeg" alt="Instagram Post" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=400&q=80'">
+      <img src="marquee/04.jpeg" alt="Romantic Sunset Pre-Wedding Destination Shoot Agumbe Western Ghats" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=400&q=80'">
       <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
         <i data-lucide="instagram" class="w-6 h-6 text-amber-400"></i>
       </div>
     </a>
 
     <a href="https://www.instagram.com/dream_captureee" target="_blank" rel="noopener noreferrer" class="relative group aspect-square w-48 sm:w-56 md:w-64 flex-shrink-0 overflow-hidden rounded-lg">
-      <img src="marquee/05.jpeg" alt="Instagram Post" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1544126592-807ade215a0b?auto=format&fit=crop&w=400&q=80'">
+      <img src="marquee/05.jpeg" alt="Baby Milestone Creative Studio Photography Sringeri" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1544126592-807ade215a0b?auto=format&fit=crop&w=400&q=80'">
       <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
         <i data-lucide="instagram" class="w-6 h-6 text-amber-400"></i>
       </div>
     </a>
 
     <a href="https://www.instagram.com/dream_captureee" target="_blank" rel="noopener noreferrer" class="relative group aspect-square w-48 sm:w-56 md:w-64 flex-shrink-0 overflow-hidden rounded-lg">
-      <img src="marquee/06.jpeg" alt="Instagram Post" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=400&q=80'">
+      <img src="marquee/06.jpeg" alt="Destination Beach Wedding Vows Couple Photography" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=400&q=80'">
       <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
         <i data-lucide="instagram" class="w-6 h-6 text-amber-400"></i>
       </div>
     </a>
 
     <a href="https://www.instagram.com/dream_captureee" target="_blank" rel="noopener noreferrer" class="relative group aspect-square w-48 sm:w-56 md:w-64 flex-shrink-0 overflow-hidden rounded-lg">
-      <img src="marquee/01.jpeg" alt="Instagram Post" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=400&q=80'">
+      <img src="marquee/01.jpeg" alt="Cinematic Wedding Vows and Candid Romance - Dream Capture" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=400&q=80'">
       <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
         <i data-lucide="instagram" class="w-6 h-6 text-amber-400"></i>
       </div>
     </a>
 
     <a href="https://www.instagram.com/dream_captureee" target="_blank" rel="noopener noreferrer" class="relative group aspect-square w-48 sm:w-56 md:w-64 flex-shrink-0 overflow-hidden rounded-lg">
-      <img src="marquee/07.jpeg" alt="Instagram Post" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=400&q=80'">
+      <img src="marquee/07.jpeg" alt="Temple Wedding Ceremony Documentation Sringeri Karnataka" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=400&q=80'">
       <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
         <i data-lucide="instagram" class="w-6 h-6 text-amber-400"></i>
       </div>
     </a>
 
     <a href="https://www.instagram.com/dream_captureee" target="_blank" rel="noopener noreferrer" class="relative group aspect-square w-48 sm:w-56 md:w-64 flex-shrink-0 overflow-hidden rounded-lg">
-      <img src="marquee/08.jpeg" alt="Instagram Post" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=400&q=80'">
+      <img src="marquee/08.jpeg" alt="Fine Art Pre-Wedding Photoshoot in Western Ghats Agumbe" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=400&q=80'">
       <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
         <i data-lucide="instagram" class="w-6 h-6 text-amber-400"></i>
       </div>
     </a>
 
     <a href="https://www.instagram.com/dream_captureee" target="_blank" rel="noopener noreferrer" class="relative group aspect-square w-48 sm:w-56 md:w-64 flex-shrink-0 overflow-hidden rounded-lg">
-      <img src="marquee/09.jpeg" alt="Instagram Post" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=400&q=80'">
+      <img src="marquee/09.jpeg" alt="Chikkamagaluru Coffee Estate Couple Portraits - Dream Capture" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=400&q=80'">
       <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
         <i data-lucide="instagram" class="w-6 h-6 text-amber-400"></i>
       </div>
     </a>
 
     <a href="https://www.instagram.com/dream_captureee" target="_blank" rel="noopener noreferrer" class="relative group aspect-square w-48 sm:w-56 md:w-64 flex-shrink-0 overflow-hidden rounded-lg">
-      <img src="marquee/05.jpeg" alt="Instagram Post" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1544126592-807ade215a0b?auto=format&fit=crop&w=400&q=80'">
+      <img src="marquee/05.jpeg" alt="Little Angel Newborn Milestone Session Sringeri Studio" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1544126592-807ade215a0b?auto=format&fit=crop&w=400&q=80'">
       <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
         <i data-lucide="instagram" class="w-6 h-6 text-amber-400"></i>
       </div>
     </a>
 
     <a href="https://www.instagram.com/dream_captureee" target="_blank" rel="noopener noreferrer" class="relative group aspect-square w-48 sm:w-56 md:w-64 flex-shrink-0 overflow-hidden rounded-lg">
-      <img src="marquee/06.jpeg" alt="Instagram Post" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=400&q=80'">
+      <img src="marquee/06.jpeg" alt="Luxury Destination Wedding Highlight - Dream Capture Photography" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=400&q=80'">
       <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
         <i data-lucide="instagram" class="w-6 h-6 text-amber-400"></i>
       </div>
@@ -1535,19 +1746,30 @@ Capturing dream moments
             </div>
         </div>
     </section>
+    </main>
 
-    <footer class="bg-black py-16 border-t border-white/10 text-gray-400">
+    <footer id="footer" class="bg-black py-16 border-t border-white/10 text-gray-400">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
                 
-                <div>
-                    <div class="flex items-center space-x-3 mb-4">
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3 mb-2">
                         <div class="w-8 h-8 rounded-full border border-gold-500 flex items-center justify-center text-gold-500 font-serif font-bold">DC</div>
                         <span class="font-serif text-lg tracking-wider font-semibold text-white">Dream Capture Photography</span>
                     </div>
-                    <p class="text-xs leading-relaxed text-gray-400 mb-6">
-                        Crafting high-end, timeless memories for luxury weddings and events worldwide.
+                    <p class="text-xs leading-relaxed text-gray-400">
+                        Luxury fine art wedding photography, candid cinematography, and signature pre-wedding destination shoots across Western Ghats, Karnataka.
                     </p>
+                    <div class="text-xs space-y-2 text-gray-400 pt-2 border-t border-white/10">
+                        <p class="flex items-start"><i data-lucide="map-pin" class="w-4 h-4 text-gold-500 mr-2 shrink-0 mt-0.5"></i> <span>Main Road, Sringeri, Chikkamagaluru District, Karnataka 577139</span></p>
+                        <p class="flex items-center"><i data-lucide="phone" class="w-4 h-4 text-gold-500 mr-2 shrink-0"></i> <a href="tel:+917483574109" class="hover:text-gold-500 transition-colors">+91 7483574109</a></p>
+                        <p class="flex items-center"><i data-lucide="mail" class="w-4 h-4 text-gold-500 mr-2 shrink-0"></i> <a href="mailto:ganeshgn304@gmail.com" class="hover:text-gold-500 transition-colors">ganeshgn304@gmail.com</a></p>
+                        <p class="flex items-center"><i data-lucide="clock" class="w-4 h-4 text-gold-500 mr-2 shrink-0"></i> <span>Mon - Sun: 8:00 AM - 9:00 PM</span></p>
+                    </div>
+                    <div class="pt-2 text-[11px] text-gray-400">
+                        <span class="text-gold-500 font-semibold uppercase tracking-wider block mb-1">Serving Regions</span>
+                        <p>Sringeri &bull; Chikkamagaluru &bull; Agumbe &bull; Thirthahalli &bull; Koppa &bull; Shimoga &bull; Mangalore &bull; All Karnataka</p>
+                    </div>
                 </div>
 
                 <div>
@@ -1557,47 +1779,51 @@ Capturing dream moments
                         <li><a href="#about" class="hover:text-gold-500 transition-colors">About Story</a></li>
                         <li><a href="#services" class="hover:text-gold-500 transition-colors">Services Offerings</a></li>
                         <li><a href="#portfolio" class="hover:text-gold-500 transition-colors">Featured Gallery</a></li>
-                        <!-- <li><a href="#packages" class="hover:text-gold-500 transition-colors">Pricing Packages</a></li> -->
+                        <li><a href="#videos" class="hover:text-gold-500 transition-colors">Cinematic Films</a></li>
+                        <li><a href="#testimonials" class="hover:text-gold-500 transition-colors">Client Reviews</a></li>
                     </ul>
                 </div>
 
                 <div>
-                    <h4 class="text-white font-serif text-lg mb-4">Services</h4>
+                    <h4 class="text-white font-serif text-lg mb-4">Photography Services</h4>
                     <ul class="space-y-2 text-xs">
-                        <li><a href="#services" class="hover:text-gold-500 transition-colors">Wedding Photography</a></li>
-                        <li><a href="#services" class="hover:text-gold-500 transition-colors">Cinematic Films</a></li>
-                        <li><a href="#services" class="hover:text-gold-500 transition-colors">Pre-Wedding Shoots</a></li>
-                        <li><a href="#services" class="hover:text-gold-500 transition-colors">Traditional Aerial Footage</a></li>
-                        <li><a href="#services" class="hover:text-gold-500 transition-colors">Baby & model</a></li>
+                        <li><a href="#services" class="hover:text-gold-500 transition-colors">Traditional Temple Weddings</a></li>
+                        <li><a href="#services" class="hover:text-gold-500 transition-colors">Candid Muhurtham Moments</a></li>
+                        <li><a href="#services" class="hover:text-gold-500 transition-colors">Agumbe &amp; Chikkamagaluru Pre-Weddings</a></li>
+                        <li><a href="#services" class="hover:text-gold-500 transition-colors">4K Cinematic Films &amp; Drone</a></li>
+                        <li><a href="#services" class="hover:text-gold-500 transition-colors">Baby Milestone &amp; Model Shoots</a></li>
                     </ul>
                 </div>
 
-                <!-- social--> 
-<div class="card" id="card">
-  <a class="social-link1" href="#card">
-    <svg viewBox="0 0 16 16" class="bi bi-instagram" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: white"> 
-      <path fill="white" d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path> 
-    </svg>
-  </a>
+                <div>
+                    <h4 class="text-white font-serif text-lg mb-4">Connect With Us</h4>
+                    <p class="text-xs text-gray-400 mb-4">Follow our daily stories, client reels, and behind-the-scenes on social media:</p>
+                    <div class="card" id="card">
+                      <a class="social-link1" href="https://www.instagram.com/dream_captureee?igsh=NWU2ems1ZzdnajIw" target="_blank" rel="noopener noreferrer" aria-label="Follow Dream Capture Photography on Instagram">
+                        <svg viewBox="0 0 16 16" class="bi bi-instagram" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: white"> 
+                          <path fill="white" d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path> 
+                        </svg>
+                      </a>
 
-  <a class="social-link2" href="#card">
-    <svg viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: white">
-      <path fill="white" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-.761-.756zm7.428-2.61L16 4.697v7.104l-5.803-3.558z"></path>
-    </svg>
-  </a>
+                      <a class="social-link2" href="mailto:ganeshgn304@gmail.com?subject=Inquiry%20-%20Photography%20Services&body=Hi%20Ganesh,%0D%0A%0D%0AI%20would%20like%20to%20inquire%20about%20your%20photography%20and%20videography%20services.%0D%0A%0D%0AThank%20you!" aria-label="Send Email Inquiry">
+                        <svg viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: white">
+                          <path fill="white" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-.761-.756zm7.428-2.61L16 4.697v7.104l-5.803-3.558z"></path>
+                        </svg>
+                      </a>
 
- <a class="social-link3" href="https://youtube.com/@dream_captureee?si=irSfCU_MpUVxqI1C" target="_blank" rel="noopener noreferrer">
-    <svg viewBox="0 0 24 24" class="bi bi-youtube" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg"> 
-      <path fill="white" d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-    </svg>
-</a>
+                      <a class="social-link3" href="https://youtube.com/@dream_captureee?si=irSfCU_MpUVxqI1C" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to Dream Capture on YouTube">
+                        <svg viewBox="0 0 24 24" class="bi bi-youtube" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg"> 
+                          <path fill="white" d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                      </a>
 
-  <a class="social-link4" href="#card">
-    <svg viewBox="0 0 16 16" class="bi bi-whatsapp" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: white"> 
-      <path fill="white" d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path> 
-    </svg>
-  </a>
-</div>
+                      <a class="social-link4" href="https://wa.me/917483574109?text=Hi!%20I%20have%20an%20inquiry%20regarding%20your%20photography%20and%20videography%20services." target="_blank" rel="noopener noreferrer" aria-label="Chat with Mr Ganesh on WhatsApp">
+                        <svg viewBox="0 0 16 16" class="bi bi-whatsapp" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: white"> 
+                          <path fill="white" d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path> 
+                        </svg>
+                      </a>
+                    </div>
+                </div>
 
 <style>
 /* social */

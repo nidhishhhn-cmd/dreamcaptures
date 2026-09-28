@@ -1,0 +1,17 @@
+{
+  "name": "Dream Capture Photography",
+  "short_name": "Dream Capture",
+  "description": "Fine Art Wedding & Pre-Wedding Photography in Sringeri, Chikkamagaluru & Agumbe",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0B0D",
+  "theme_color": "#0B0B0D",
+  "icons": [
+    {
+      "src": "/iso.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
