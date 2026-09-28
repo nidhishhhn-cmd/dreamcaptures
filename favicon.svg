@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#141418" />
+      <stop offset="100%" stop-color="#0B0B0D" />
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8DE" />
+      <stop offset="30%" stop-color="#E6C66D" />
+      <stop offset="65%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#8A6818" />
+    </linearGradient>
+    <linearGradient id="goldRing" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8A6818" />
+      <stop offset="35%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#FFF8DE" />
+      <stop offset="100%" stop-color="#AA7C11" />
+    </linearGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.8" />
+    </filter>
+  </defs>
+
+  <!-- Circular Background for crisp display across Google Search, Safari, Chrome & Edge -->
+  <circle cx="256" cy="256" r="256" fill="url(#bgGrad)" />
+
+  <!-- Outer Metallic Gold Ring -->
+  <circle cx="256" cy="256" r="218" fill="none" stroke="url(#goldRing)" stroke-width="18" filter="url(#subtleShadow)" />
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.4" />
+
+  <!-- Luxury Monogram Typography DC -->
+  <g filter="url(#subtleShadow)">
+    <text x="256" y="325" font-family="'Cormorant Garamond', 'Cinzel', 'Playfair Display', Georgia, serif" font-size="210" font-weight="700" text-anchor="middle" fill="url(#goldGrad)" letter-spacing="3">DC</text>
+  </g>
+</svg>
